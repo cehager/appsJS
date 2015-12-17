@@ -1,6 +1,6 @@
 ﻿
 body {
-    background-color: #444;
+    background-color: white;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -10,4 +10,8 @@ body {
 
 .test {
     color: red;
+}
+
+.sign-in-form {
+    padding: 80px;
 }

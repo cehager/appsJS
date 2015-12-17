@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="app\app.css" />
     <Content Include="app\appConfig.js" />
+    <Content Include="app\appController.js" />
     <Content Include="app\appRouteConfig.js" />
     <Content Include="app\dialogs\wwaSelectEmployeeController.js" />
     <Content Include="app\dialogs\wwaSelectEmployeeTemplate.html" />
@@ -82,6 +83,11 @@
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="ext-modules\psDashboard\psWidgetBodyDirective.js" />
     <Content Include="ext-modules\psDashboard\psWidgetBodyTemplate.html" />
+    <Content Include="ext-modules\psFramework\psUserProfile\psUserProfileDirective.js" />
+    <Content Include="ext-modules\psFramework\psUserProfile\psUserProfileSmallDirective.js" />
+    <Content Include="ext-modules\psFramework\psUserProfile\psUserProfileSmallTemplate.html" />
+    <Content Include="ext-modules\psFramework\psUserProfile\psUserProfileTemplate.html" />
+    <Content Include="gulpfile.js" />
     <Content Include="images\employee-andy.png" />
     <Content Include="images\employee-april.png" />
     <Content Include="images\employee-don.png" />
@@ -128,6 +134,7 @@
     <Content Include="images\Clear-Creek-Rafting_210x180.jpg" />
     <Content Include="images\kayak-icon-flat.png" />
     <Content Include="images\Poudre-River-Rafting_210x180.jpg" />
+    <Content Include="index-old.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -142,6 +149,7 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include=".gitignore" />
+    <Content Include="package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -186,6 +194,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\ngStorage.js" />
+    <Content Include="Scripts\ngStorage.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
